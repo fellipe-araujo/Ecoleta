@@ -33,7 +33,7 @@ interface Data {
 }
 
 const Detail = () => {
-  const [data, setData] = useState<Data>({});
+  const [data, setData] = useState<Data>({} as Data);
 
   const navigation = useNavigation();
   const route = useRoute();

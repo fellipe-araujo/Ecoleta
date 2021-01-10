@@ -82,7 +82,7 @@ const Points = () => {
 
   useEffect(() => {
     const getPoints = async () => {
-      const response = await api.get("points/all", {
+      const response = await api.get("points", {
         params: {
           city: routeParams.city,
           uf: routeParams.uf,
